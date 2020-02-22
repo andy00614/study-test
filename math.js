@@ -10,7 +10,7 @@ function multi(a,b) {
   return a * b
 }
 
-module.exports = {
+export {
   add,
   minus,
   multi
