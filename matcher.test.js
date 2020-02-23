@@ -21,5 +21,5 @@ test("toMatch", () => {
 // Array,Set
 test('toContainer',() => {
   const arr = ['andy',1,23,3]
-  expect(arr).toContain(3)
+  expect(arr).toContain(23)
 })
