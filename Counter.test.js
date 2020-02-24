@@ -1,6 +1,10 @@
 import Counter from './Counter'
 
-const counter = new Counter()
+let counter = null
+
+beforeEach(() => {
+  counter = new Counter()
+})
 
 test('测试addOne',() => {
   counter.addOne()
@@ -9,5 +13,5 @@ test('测试addOne',() => {
 
 test('测试addOne',() => {
   counter.minusOne()
-  expect(counter.number).toBe(1)
+  expect(counter.number).toBe(0)
 })
