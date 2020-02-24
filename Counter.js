@@ -8,6 +8,12 @@ class Counter {
   minusOne() {
     this.number -= 1
   }
+  addTwo() {
+    this.number += 2
+  }
+  minusTwo() {
+    this.number -= 2
+  }
 }
 
 export default Counter
