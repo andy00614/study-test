@@ -24,3 +24,15 @@ import { requestMock } from './fetchData'
 test('test async function async await',async () => {
   await expect(requestMock()).rejects.toBe('true1')
 })
+
+// 完整的async await
+test('test async function async await',async () => {
+  //! 如果下面这样写的话只要不是错的就全通过
+  try {
+    const res = await requestMock()
+  } catch(e) {
+    expect(e).toBe(true)
+  }
+})
+
+
