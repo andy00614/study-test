@@ -1,7 +1,7 @@
 export const requestMock = () => {
   return new Promise((resolve,reject) => {
     setTimeout(() => {
-      resolve('true')
+      reject('true')
     }, 1000);
   })
 }
