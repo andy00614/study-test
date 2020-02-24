@@ -10,7 +10,7 @@ test('test async function',() => {
     // done()
   })
 })
-// rebase1
+// rebase12
 // 第二种方法
 
 test('test async function 2',() => {
